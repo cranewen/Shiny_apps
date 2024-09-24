@@ -11,9 +11,6 @@ library(htmlwidgets)
 library(colourpicker)
 library(RColorBrewer)
 library(shinydashboard)
-# options(shiny.host = '10.251.99.213')
-# options(shiny.host = '172.24.65.161')
-# options(shiny.port = 3030)
 
 shinyServer(function(input, output, session){
    
